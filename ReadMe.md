@@ -26,4 +26,4 @@ If you are eager to modify this project, Just open `System`, `Process`, and `Pro
 * ncurses library
     * ```sudo apt install libncurses5-dev libncursesw5-dev```
 
-For this project, I have used `[ncurses](https://invisible-island.net/ncurses/announce.html)` library. ncurses is a library that facilitates text-based graphical output in the terminal. This project relies on `ncurses` for display output. 
+For this project, I have used [ncurses](https://invisible-island.net/ncurses/announce.html) library. ncurses is a library that facilitates text-based graphical output in the terminal. This project relies on `ncurses` for display output. 

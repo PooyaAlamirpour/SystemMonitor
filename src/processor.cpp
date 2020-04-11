@@ -2,14 +2,14 @@
 
 Processor::Processor(){
   tAll_  = LinuxParser::Jiffies();
-  tIdle_ = LinuxParser::IdleJiffies();  
+  tIdle_ = LinuxParser::IdleJiffies();
 }
 
-// TODO: Return the aggregate CPU utilization
-float Processor::Utilization() { 
-    
+// Done: Return the aggregate CPU utilization
+float Processor::Utilization() {
+
   float tAllOld = tAll_;
-  float tIdleOld = tIdle_;  
+  float tIdleOld = tIdle_;
   tAll_  = LinuxParser::Jiffies();
   tIdle_ = LinuxParser::IdleJiffies();
 
